@@ -1,0 +1,56 @@
+AVATAR ORGANIZER SOFTWARE AND BUNDLED AVATAR LICENSE
+Version 1.0 — Effective 13 July 2026
+
+Copyright (C) 2026 Wynand Meyering. All rights reserved except for the permissions expressly granted below.
+
+License and Terms of Use
+
+This License.txt file is the controlling license for Avatar Organizer and its official bundled avatar library.
+
+1. File operations and backups
+
+Avatar Organizer can rename, move, delete, organize, and export files. You are responsible for reviewing each action and maintaining current backups of files that matter to you. The developer cannot guarantee recovery of files that are changed, moved, deleted, damaged, or overwritten.
+
+2. Bundled avatar usage rights
+
+You receive a non-exclusive, worldwide, perpetual, royalty-free license to use the avatars bundled with Avatar Organizer in unlimited personal and commercial projects. This includes social media and online profile pictures, games, apps, websites, videos, streams, broadcasts, advertisements, marketing, presentations, educational materials, printed products, and client work.
+
+You may crop, resize, recolor, animate, edit, and combine the bundled avatars. Attribution is appreciated but not required. You may distribute an avatar as an integrated, compiled, rendered, or flattened part of a larger finished project whose primary value is not the avatar files themselves.
+
+3. Bundled avatar restrictions
+
+You may use and edit the bundled avatars in your own personal or commercial projects.
+
+You may not include them in an avatar pack, icon pack, stock image collection, clip-art collection, template pack, or any other downloadable product where the main value comes from the avatar files.
+
+You may not claim that you created or exclusively own the artwork, make the source files available for others to extract and reuse, or register a mostly unchanged avatar as a trademark.
+
+You may not use an avatar to impersonate a real person or to falsely suggest that a person, company, brand, or organization supports or endorses you.
+
+4. User-provided content and lawful use
+
+You may use the software only with files that you own or have permission to use and manage.
+
+You are responsible for making sure that your use of those files does not violate copyright, trademark, privacy, publicity, contract, or other legal rights.
+
+5. Software license
+
+You may install and use Avatar Organizer for personal or commercial file-management work. The software itself may not be sold, sublicensed, modified for redistribution, or repackaged as another product without written permission from the developer.
+
+6. Software provided as-is
+
+Avatar Organizer is provided as-is and as available, without guarantees that it will be uninterrupted, error-free, compatible with every system, or suitable for a particular purpose. To the extent permitted by law, all implied warranties are disclaimed.
+
+7. Limitation of liability
+
+To the fullest extent permitted by applicable law, the developer will not be liable for data loss, lost profits, business interruption, or indirect, special, incidental, or consequential damages arising from use of, or inability to use, the software or bundled avatars.
+
+8. Local files, external links, and donations
+
+Avatar Organizer is designed to manage files on your computer. External links, including the PayPal support link, open in your web browser and are governed by the third party's own terms and privacy practices. Avatar Organizer does not collect or process your PayPal payment details.
+
+Donations are optional and do not purchase ownership, guaranteed support, guaranteed updates, additional rights, or a warranty.
+
+9. Acceptance
+
+By installing or using Avatar Organizer, you confirm that you have read and agree to this license and these terms. If you do not agree, do not install or use the software or bundled avatars.
