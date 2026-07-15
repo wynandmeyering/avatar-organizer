@@ -8,6 +8,71 @@
   <title>Avatar Organizer for Windows</title>
   <link rel="icon" type="image/png" href="assets/avatar-organizer-icon.png">
   <link rel="stylesheet" href="styles.css">
+
+  <style>
+    /* Application screenshot */
+    .screenshot-section {
+      padding-top: 72px;
+      padding-bottom: 72px;
+    }
+
+    .screenshot-section .section-heading {
+      max-width: 760px;
+      margin-bottom: 32px;
+    }
+
+    .screenshot-section .section-heading p:last-child {
+      color: #64748b;
+      line-height: 1.7;
+    }
+
+    .screenshot-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1100px);
+      justify-content: center;
+      gap: 28px;
+    }
+
+    .screenshot-card {
+      margin: 0;
+      overflow: hidden;
+      border: 1px solid #dbe3ee;
+      border-radius: 18px;
+      background: #ffffff;
+      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.1);
+    }
+
+    .screenshot-card a {
+      display: block;
+      background: #e8edf4;
+    }
+
+    .screenshot-card img {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      transition: transform 180ms ease;
+    }
+
+    .screenshot-card a:hover img,
+    .screenshot-card a:focus-visible img {
+      transform: scale(1.015);
+    }
+
+    .screenshot-card a:focus-visible {
+      outline: 3px solid #2563eb;
+      outline-offset: -3px;
+    }
+
+    .screenshot-card figcaption {
+      padding: 18px 20px 21px;
+      color: #475569;
+      font-size: 0.96rem;
+      line-height: 1.55;
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -18,6 +83,7 @@
     <nav aria-label="Primary navigation">
       <a href="#features">Features</a>
       <a href="#license">Avatar rights</a>
+      <a href="#screenshots">Screenshot</a>
       <a href="#downloads">Downloads</a>
       <a href="License.txt">License</a>
     </nav>
@@ -131,6 +197,40 @@
           <p class="restriction"><strong>Main restriction:</strong> do not redistribute the avatar image files as an avatar pack, icon pack, stock collection, template collection or similar downloadable asset product.</p>
           <a class="text-link" href="License.txt">Read the complete License.txt</a>
         </div>
+      </div>
+    </section>
+
+
+    <section id="screenshots" class="content-section section-shell screenshot-section">
+      <div class="section-heading">
+        <p class="eyebrow">See Avatar Organizer</p>
+        <h2>Browse, review and organize avatars visually.</h2>
+        <p>
+          Work with large avatar collections using clear category views,
+          large thumbnails and practical file-management controls.
+        </p>
+      </div>
+
+      <div class="screenshot-grid">
+        <figure class="screenshot-card">
+          <a
+            href="assets/avatar-organizer-category-overview.png"
+            target="_blank"
+            rel="noopener"
+            aria-label="Open the Avatar Organizer screenshot"
+          >
+            <img
+              src="assets/avatar-organizer-category-overview.png"
+              alt="Avatar Organizer showing a diverse collection of organized avatar categories"
+              width="1920"
+              height="1080"
+              loading="lazy"
+            >
+          </a>
+          <figcaption>
+            Browse the bundled avatar library through clearly organized visual categories.
+          </figcaption>
+        </figure>
       </div>
     </section>
 
