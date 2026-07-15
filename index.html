@@ -72,6 +72,32 @@
       font-size: 0.96rem;
       line-height: 1.55;
     }
+
+
+    /* Real application screenshot in the hero section */
+    .real-product-panel {
+      padding: 0;
+      overflow: hidden;
+      background: #ffffff;
+    }
+
+    .real-product-panel a {
+      display: block;
+    }
+
+    .real-product-panel img {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16 / 9;
+      object-fit: contain;
+      background: #ffffff;
+    }
+
+    .real-product-panel a:focus-visible {
+      outline: 3px solid #2563eb;
+      outline-offset: -3px;
+    }
   </style>
 </head>
 <body>
@@ -106,35 +132,20 @@
         </div>
       </div>
 
-      <div class="product-panel" aria-label="Avatar Organizer interface preview">
-        <div class="window-bar">
-          <span></span><span></span><span></span>
-          <strong>Avatar Organizer</strong>
-        </div>
-        <div class="mock-layout">
-          <aside>
-            <p>Categories</p>
-            <div class="folder active">Everyday Professions <b>148</b></div>
-            <div class="folder">Friendly Animals <b>96</b></div>
-            <div class="folder">Sci-Fi Explorers <b>121</b></div>
-            <div class="folder">Check Later <b>18</b></div>
-          </aside>
-          <div class="mock-main">
-            <div class="mock-toolbar">
-              <span>Large thumbnails</span>
-              <span>Search collection</span>
-            </div>
-            <div class="avatar-grid">
-              <div class="avatar a1"></div>
-              <div class="avatar a2"></div>
-              <div class="avatar a3"></div>
-              <div class="avatar a4"></div>
-              <div class="avatar a5"></div>
-              <div class="avatar a6"></div>
-            </div>
-            <div class="status">6 selected · Move, rename, export or review</div>
-          </div>
-        </div>
+      <div class="product-panel real-product-panel" aria-label="Avatar Organizer interface preview">
+        <a
+          href="assets/avatar-organizer-main-screen.png"
+          target="_blank"
+          rel="noopener"
+          aria-label="Open the full-size Avatar Organizer screenshot"
+        >
+          <img
+            src="assets/avatar-organizer-main-screen.png"
+            alt="Avatar Organizer application showing organized avatar categories, thumbnails and file-management controls"
+            width="1920"
+            height="1080"
+          >
+        </a>
       </div>
     </section>
 
@@ -214,13 +225,13 @@
       <div class="screenshot-grid">
         <figure class="screenshot-card">
           <a
-            href="assets/avatar-organizer-category-overview.png"
+            href="assets/avatar-organizer-main-screen.png"
             target="_blank"
             rel="noopener"
             aria-label="Open the Avatar Organizer screenshot"
           >
             <img
-              src="assets/avatar-organizer-category-overview.png"
+              src="assets/avatar-organizer-main-screen.png"
               alt="Avatar Organizer showing a diverse collection of organized avatar categories"
               width="1920"
               height="1080"
